@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Style for Number Buttons -->
+    <style name="CalculatorButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+
+    <!-- Style for Operator Buttons -->
+    <style name="CalculatorOperatorButtonStyle" parent="CalculatorButtonStyle">
+        <item name="android:textColor">@android:color/holo_red_light</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <!-- Style for Equal Button -->
+    <style name="CalculatorEqualButtonStyle" parent="CalculatorButtonStyle">
+        <item name="android:background">@android:color/holo_red_dark</item>
+        <item name="android:textSize">36sp</item>
+    </style>
+
+    <!-- Style for Input Display -->
+    <style name="CalculatorTextViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@android:color/holo_red_light</item>
+        <item name="android:gravity">end</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
+    </style>
+</resources>
